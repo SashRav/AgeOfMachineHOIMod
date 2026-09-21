@@ -1,0 +1,53 @@
+technologies = {
+
+	# Тестовая технология 1936 года, доступна только Огненной Земле
+	TDF_test_tech_1 = {
+		allow = {
+			original_tag = TDF
+		}
+
+		research_speed_factor = 0.05
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_research_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_tech_category
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Вторая технология: открывается решением TDF_unlock_test_tech_2
+	TDF_test_tech_2 = {
+		allow = {
+			original_tag = TDF
+			has_country_flag = TDF_test_tech_2_unlocked
+		}
+
+		production_speed_industrial_complex_factor = 0.1
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_research_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_tech_category
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

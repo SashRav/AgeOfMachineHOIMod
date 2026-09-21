@@ -58,4 +58,32 @@ TDF_decisions_category = {
 			base = 1
 		}
 	}
+
+	TDF_unlock_test_tech_2 = {
+		icon = generic_research
+
+		allowed = {
+			original_tag = TDF
+		}
+
+		visible = {
+			NOT = { has_country_flag = TDF_test_tech_2_unlocked }
+		}
+
+		available = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = TDF_test_tech_2_unlocked
+			custom_effect_tooltip = TDF_unlock_test_tech_2_tt
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
 }

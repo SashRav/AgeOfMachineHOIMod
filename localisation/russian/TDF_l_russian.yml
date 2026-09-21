@@ -71,3 +71,17 @@
  tdf.1.t: "На краю света"
  tdf.1.d: "Заглушка текста события."
  tdf.1.a: "Заглушка."
+
+ # Bookmarks / Technologies
+ TDF_GATHERING_STORM_DESC: "Заглушка описания Огненной Земли в меню выбора страны."
+ TDF_BLITZKRIEG_DESC: "Заглушка описания Огненной Земли в меню выбора страны."
+ TDF_research_folder: "Исследования Огненной Земли"
+ TDF_research_folder_desc: "Заглушка вкладки исследований."
+ TDF_tech_category: "Технологии Огненной Земли"
+ TDF_test_tech_1: "Тестовая технология I"
+ TDF_test_tech_1_desc: "Заглушка технологии."
+ TDF_test_tech_2: "Тестовая технология II"
+ TDF_test_tech_2_desc: "Заглушка технологии. Открывается решением."
+ TDF_unlock_test_tech_2: "Открыть тестовую технологию II"
+ TDF_unlock_test_tech_2_desc: "Заглушка."
+ TDF_unlock_test_tech_2_tt: "Открывает исследование §YТестовой технологии II§!."

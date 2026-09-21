@@ -71,3 +71,17 @@
  tdf.1.t: "The Edge of the World"
  tdf.1.d: "Placeholder event text."
  tdf.1.a: "Placeholder."
+
+ # Bookmarks / Technologies
+ TDF_GATHERING_STORM_DESC: "Placeholder bookmark description for Tierra del Fuego."
+ TDF_BLITZKRIEG_DESC: "Placeholder bookmark description for Tierra del Fuego."
+ TDF_research_folder: "Fuegian Research"
+ TDF_research_folder_desc: "Placeholder research tab."
+ TDF_tech_category: "Fuegian Technologies"
+ TDF_test_tech_1: "Test Technology I"
+ TDF_test_tech_1_desc: "Placeholder technology."
+ TDF_test_tech_2: "Test Technology II"
+ TDF_test_tech_2_desc: "Placeholder technology. Unlocked by a decision."
+ TDF_unlock_test_tech_2: "Unlock Test Technology II"
+ TDF_unlock_test_tech_2_desc: "Placeholder."
+ TDF_unlock_test_tech_2_tt: "Allows research of §YTest Technology II§!."

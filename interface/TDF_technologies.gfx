@@ -1,0 +1,18 @@
+spriteTypes = {
+	# Вкладка исследований Огненной Земли (заглушка: текстура вкладки промышленности)
+	spriteType = {
+		name = "GFX_TDF_research_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
+		noOfFrames = 2
+	}
+
+	# Иконки технологий (заглушки: ванильные текстуры)
+	spriteType = {
+		name = "GFX_TDF_test_tech_1_medium"
+		texturefile = "gfx/interface/technologies/radio.dds"
+	}
+	spriteType = {
+		name = "GFX_TDF_test_tech_2_medium"
+		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
+	}
+}
