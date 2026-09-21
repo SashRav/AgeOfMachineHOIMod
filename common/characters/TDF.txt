@@ -1,0 +1,234 @@
+characters = {
+	TDF_ramiro_echeverria = {
+		name = TDF_ramiro_echeverria
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TDF_ramiro_echeverria
+				small = GFX_portrait_TDF_ramiro_echeverria_small
+			}
+		}
+		country_leader = {
+			desc = TDF_ramiro_echeverria_desc
+			ideology = moderatism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	TDF_tomas_villarino = {
+		name = TDF_tomas_villarino
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TDF_tomas_villarino
+				small = GFX_portrait_TDF_tomas_villarino_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TDF_tomas_villarino_advisor
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	TDF_ignacio_beauvoir = {
+		name = TDF_ignacio_beauvoir
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TDF_ignacio_beauvoir
+				small = GFX_portrait_TDF_ignacio_beauvoir_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TDF_ignacio_beauvoir_advisor
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				captain_of_industry
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	TDF_lucia_harberton = {
+		name = TDF_lucia_harberton
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TDF_lucia_harberton
+				small = GFX_portrait_TDF_lucia_harberton_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = TDF_lucia_harberton_advisor
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				compassionate_gentleman
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	TDF_anselmo_briones = {
+		name = TDF_anselmo_briones
+		portraits = {
+			army = {
+				large = GFX_portrait_TDF_anselmo_briones
+				small = GFX_portrait_TDF_anselmo_briones_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = TDF_anselmo_briones_advisor
+			ledger = army
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				military_theorist
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	TDF_julian_arrieta = {
+		name = TDF_julian_arrieta
+		portraits = {
+			army = {
+				large = GFX_portrait_TDF_julian_arrieta
+				small = GFX_portrait_TDF_julian_arrieta_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = TDF_julian_arrieta_advisor
+			ledger = army
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	TDF_mateo_oyarzun = {
+		name = TDF_mateo_oyarzun
+		portraits = {
+			navy = {
+				large = GFX_portrait_TDF_mateo_oyarzun
+				small = GFX_portrait_TDF_mateo_oyarzun_small
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = TDF_mateo_oyarzun_advisor
+			ledger = navy
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				navy_chief_commerce_raiding_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
+
+	TDF_esteban_garay = {
+		name = TDF_esteban_garay
+		portraits = {
+			army = {
+				large = GFX_portrait_TDF_esteban_garay
+				small = GFX_portrait_TDF_esteban_garay_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = TDF_esteban_garay_advisor
+			ledger = air
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				air_chief_ground_support_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	TDF_felix_rauch = {
+		name = TDF_felix_rauch
+		portraits = {
+			army = {
+				large = GFX_portrait_TDF_felix_rauch
+				small = GFX_portrait_TDF_felix_rauch_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = TDF_felix_rauch_advisor
+			ledger = army
+			allowed = {
+				original_tag = TDF
+			}
+			traits = {
+				army_infantry_1
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+}

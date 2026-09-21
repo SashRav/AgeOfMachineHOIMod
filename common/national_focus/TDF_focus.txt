@@ -1,0 +1,162 @@
+focus_tree = {
+	id = TDF_focus_tree
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TDF
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 1200 }
+
+	initial_show_position = {
+		focus = TDF_the_edge_of_the_world
+	}
+
+	############################################
+	# Корневой фокус
+	############################################
+	focus = {
+		id = TDF_the_edge_of_the_world
+		icon = GFX_goal_generic_national_unity
+		x = 4
+		y = 0
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			country_event = { id = tdf.1 }
+		}
+
+		ai_will_do = { base = 10 }
+	}
+
+	############################################
+	# Политическая ветка
+	############################################
+	focus = {
+		id = TDF_political_placeholder_1
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = TDF_the_edge_of_the_world }
+		x = -3
+		y = 1
+		relative_position_id = TDF_the_edge_of_the_world
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+		ai_will_do = { base = 1 }
+	}
+
+	focus = {
+		id = TDF_political_placeholder_2
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = TDF_political_placeholder_1 }
+		x = 0
+		y = 1
+		relative_position_id = TDF_political_placeholder_1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 75
+		}
+
+		ai_will_do = { base = 1 }
+	}
+
+	############################################
+	# Экономическая ветка
+	############################################
+	focus = {
+		id = TDF_economy_placeholder_1
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = TDF_the_edge_of_the_world }
+		x = 0
+		y = 1
+		relative_position_id = TDF_the_edge_of_the_world
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			953 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = { base = 1 }
+	}
+
+	focus = {
+		id = TDF_economy_placeholder_2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = TDF_economy_placeholder_1 }
+		x = 0
+		y = 1
+		relative_position_id = TDF_economy_placeholder_1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TDF_economy_placeholder_2
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+
+		ai_will_do = { base = 1 }
+	}
+
+	############################################
+	# Военная ветка
+	############################################
+	focus = {
+		id = TDF_military_placeholder_1
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = TDF_the_edge_of_the_world }
+		x = 3
+		y = 1
+		relative_position_id = TDF_the_edge_of_the_world
+		cost = 10
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+
+		completion_reward = {
+			army_experience = 10
+		}
+
+		ai_will_do = { base = 1 }
+	}
+
+	focus = {
+		id = TDF_military_placeholder_2
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = TDF_military_placeholder_1 }
+		x = 0
+		y = 1
+		relative_position_id = TDF_military_placeholder_1
+		cost = 10
+		search_filters = { FOCUS_FILTER_NAVY_XP }
+
+		completion_reward = {
+			navy_experience = 10
+		}
+
+		ai_will_do = { base = 1 }
+	}
+}

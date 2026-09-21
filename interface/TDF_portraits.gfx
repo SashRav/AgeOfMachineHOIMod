@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_TDF_ramiro_echeverria"
+		texturefile = "gfx/leaders/TDF/TDF_ramiro_echeverria.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_ramiro_echeverria_small"
+		texturefile = "gfx/leaders/TDF/TDF_ramiro_echeverria_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_tomas_villarino"
+		texturefile = "gfx/leaders/TDF/TDF_tomas_villarino.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_tomas_villarino_small"
+		texturefile = "gfx/leaders/TDF/TDF_tomas_villarino_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_ignacio_beauvoir"
+		texturefile = "gfx/leaders/TDF/TDF_ignacio_beauvoir.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_ignacio_beauvoir_small"
+		texturefile = "gfx/leaders/TDF/TDF_ignacio_beauvoir_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_lucia_harberton"
+		texturefile = "gfx/leaders/TDF/TDF_lucia_harberton.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_lucia_harberton_small"
+		texturefile = "gfx/leaders/TDF/TDF_lucia_harberton_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_anselmo_briones"
+		texturefile = "gfx/leaders/TDF/TDF_anselmo_briones.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_anselmo_briones_small"
+		texturefile = "gfx/leaders/TDF/TDF_anselmo_briones_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_julian_arrieta"
+		texturefile = "gfx/leaders/TDF/TDF_julian_arrieta.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_julian_arrieta_small"
+		texturefile = "gfx/leaders/TDF/TDF_julian_arrieta_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_mateo_oyarzun"
+		texturefile = "gfx/leaders/TDF/TDF_mateo_oyarzun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_mateo_oyarzun_small"
+		texturefile = "gfx/leaders/TDF/TDF_mateo_oyarzun_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_esteban_garay"
+		texturefile = "gfx/leaders/TDF/TDF_esteban_garay.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_esteban_garay_small"
+		texturefile = "gfx/leaders/TDF/TDF_esteban_garay_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_felix_rauch"
+		texturefile = "gfx/leaders/TDF/TDF_felix_rauch.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TDF_felix_rauch_small"
+		texturefile = "gfx/leaders/TDF/TDF_felix_rauch_small.dds"
+	}
+}

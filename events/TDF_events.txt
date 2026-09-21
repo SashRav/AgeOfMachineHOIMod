@@ -1,0 +1,15 @@
+add_namespace = tdf
+
+# Заглушка: вступительное событие (вызывается фокусом TDF_the_edge_of_the_world)
+country_event = {
+	id = tdf.1
+	title = tdf.1.t
+	desc = tdf.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = tdf.1.a
+	}
+}

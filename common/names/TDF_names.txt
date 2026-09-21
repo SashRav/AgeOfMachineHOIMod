@@ -1,0 +1,25 @@
+TDF = {
+	male = {
+		names = {
+			Agustín Alberto Alejandro Andrés Anselmo Antonio Bernardo Carlos Cristóbal Diego
+			Domingo Eduardo Emilio Enrique Esteban Ezequiel Federico Felipe Félix Francisco
+			Gonzalo Guillermo Ignacio Joaquín Jorge José "Juan Carlos" Julián Lautaro Leandro
+			Lorenzo Luis Manuel Mariano Martín Mateo Nicolás Pablo Pedro Ramiro
+			Ricardo Roberto Rodrigo Santiago Sebastián Tomás Valentín Víctor
+		}
+	}
+	female = {
+		names = {
+			Ana Beatriz Carmen Catalina Clara Elena Emilia Florencia Inés Isabel
+			Josefina Juana Lucía Magdalena María Mercedes Olga Paula Rosa Teresa
+		}
+	}
+	surnames = {
+		Aguirre Alvarado Arrieta Beauvoir Bridges Briones Cárdenas Castro Echeverría Fagnano
+		Fernández Garay Gómez Harberton Lasserre López Martínez Menéndez Morales Navarro
+		Oyarzún Paz Popper Rauch Ríos Rojas Ruiz Soto Vargas Villarino
+	}
+	callsigns = {
+		"Albatros" "Cormorán" "Viento Sur" "Canal" "Faro" "Glaciar" "Lenga" "Pingüino"
+	}
+}

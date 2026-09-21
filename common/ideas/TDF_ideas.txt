@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		TDF_end_of_the_world = {
+			picture = isolation
+
+			allowed = {
+				original_tag = TDF
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+	}
+}

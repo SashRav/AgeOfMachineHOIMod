@@ -1,0 +1,73 @@
+﻿l_english:
+ # Country
+ TDF: "Tierra del Fuego"
+ TDF_DEF: "Tierra del Fuego"
+ TDF_ADJ: "Fuegian"
+ TDF_neutrality: "Tierra del Fuego"
+ TDF_neutrality_DEF: "Tierra del Fuego"
+ TDF_neutrality_ADJ: "Fuegian"
+ TDF_democratic: "Republic of Tierra del Fuego"
+ TDF_democratic_DEF: "the Republic of Tierra del Fuego"
+ TDF_democratic_ADJ: "Fuegian"
+ TDF_fascism: "Fuegian State"
+ TDF_fascism_DEF: "the Fuegian State"
+ TDF_fascism_ADJ: "Fuegian"
+ TDF_communism: "Fuegian Commune"
+ TDF_communism_DEF: "the Fuegian Commune"
+ TDF_communism_ADJ: "Fuegian"
+
+ # Parties
+ TDF_neutrality_party: "Territorial Council"
+ TDF_neutrality_party_long: "Territorial Council of Tierra del Fuego"
+ TDF_democratic_party: "UCF"
+ TDF_democratic_party_long: "Unión Cívica Fueguina"
+ TDF_fascism_party: "MNA"
+ TDF_fascism_party_long: "Movimiento Nacional Austral"
+ TDF_communism_party: "PCF"
+ TDF_communism_party_long: "Partido Comunista Fueguino"
+
+ # Characters
+ TDF_ramiro_echeverria: "Ramiro Echeverría"
+ TDF_ramiro_echeverria_desc: "Placeholder biography."
+ TDF_tomas_villarino: "Tomás Villarino"
+ TDF_ignacio_beauvoir: "Ignacio Beauvoir"
+ TDF_lucia_harberton: "Lucía Harberton"
+ TDF_anselmo_briones: "Anselmo Briones"
+ TDF_julian_arrieta: "Julián Arrieta"
+ TDF_mateo_oyarzun: "Mateo Oyarzún"
+ TDF_esteban_garay: "Esteban Garay"
+ TDF_felix_rauch: "Félix Rauch"
+
+ # Ideas
+ TDF_end_of_the_world: "End of the World"
+ TDF_end_of_the_world_desc: "Placeholder national spirit."
+
+ # Focus tree
+ TDF_focus_tree: "Fuegian Focus Tree"
+ TDF_the_edge_of_the_world: "The Edge of the World"
+ TDF_the_edge_of_the_world_desc: "Placeholder."
+ TDF_political_placeholder_1: "Political Focus I"
+ TDF_political_placeholder_1_desc: "Placeholder."
+ TDF_political_placeholder_2: "Political Focus II"
+ TDF_political_placeholder_2_desc: "Placeholder."
+ TDF_economy_placeholder_1: "Economic Focus I"
+ TDF_economy_placeholder_1_desc: "Placeholder."
+ TDF_economy_placeholder_2: "Economic Focus II"
+ TDF_economy_placeholder_2_desc: "Placeholder."
+ TDF_military_placeholder_1: "Military Focus I"
+ TDF_military_placeholder_1_desc: "Placeholder."
+ TDF_military_placeholder_2: "Military Focus II"
+ TDF_military_placeholder_2_desc: "Placeholder."
+
+ # Decisions
+ TDF_decisions_category: "Affairs of Tierra del Fuego"
+ TDF_decisions_category_desc: "Placeholder decision category."
+ TDF_decision_placeholder_1: "Decision I"
+ TDF_decision_placeholder_1_desc: "Placeholder."
+ TDF_decision_placeholder_2: "Decision II"
+ TDF_decision_placeholder_2_desc: "Placeholder."
+
+ # Events
+ tdf.1.t: "The Edge of the World"
+ tdf.1.d: "Placeholder event text."
+ tdf.1.a: "Placeholder."

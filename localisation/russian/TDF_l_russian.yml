@@ -1,0 +1,73 @@
+﻿l_russian:
+ # Страна
+ TDF: "Огненная Земля"
+ TDF_DEF: "Огненная Земля"
+ TDF_ADJ: "огнеземельский"
+ TDF_neutrality: "Огненная Земля"
+ TDF_neutrality_DEF: "Огненная Земля"
+ TDF_neutrality_ADJ: "огнеземельский"
+ TDF_democratic: "Республика Огненная Земля"
+ TDF_democratic_DEF: "Республика Огненная Земля"
+ TDF_democratic_ADJ: "огнеземельский"
+ TDF_fascism: "Огнеземельское государство"
+ TDF_fascism_DEF: "Огнеземельское государство"
+ TDF_fascism_ADJ: "огнеземельский"
+ TDF_communism: "Огнеземельская коммуна"
+ TDF_communism_DEF: "Огнеземельская коммуна"
+ TDF_communism_ADJ: "огнеземельский"
+
+ # Партии
+ TDF_neutrality_party: "Территориальный совет"
+ TDF_neutrality_party_long: "Территориальный совет Огненной Земли"
+ TDF_democratic_party: "ГСО"
+ TDF_democratic_party_long: "Гражданский союз Огненной Земли"
+ TDF_fascism_party: "НДЮ"
+ TDF_fascism_party_long: "Национальное движение Юга"
+ TDF_communism_party: "КПО"
+ TDF_communism_party_long: "Коммунистическая партия Огненной Земли"
+
+ # Персонажи
+ TDF_ramiro_echeverria: "Рамиро Эчеверрия"
+ TDF_ramiro_echeverria_desc: "Заглушка биографии."
+ TDF_tomas_villarino: "Томас Вильярино"
+ TDF_ignacio_beauvoir: "Игнасио Бовуар"
+ TDF_lucia_harberton: "Лусия Харбертон"
+ TDF_anselmo_briones: "Ансельмо Брионес"
+ TDF_julian_arrieta: "Хулиан Арриета"
+ TDF_mateo_oyarzun: "Матео Оярсун"
+ TDF_esteban_garay: "Эстебан Гарай"
+ TDF_felix_rauch: "Феликс Раух"
+
+ # Национальные духи
+ TDF_end_of_the_world: "Край света"
+ TDF_end_of_the_world_desc: "Заглушка национального духа."
+
+ # Дерево фокусов
+ TDF_focus_tree: "Фокусы Огненной Земли"
+ TDF_the_edge_of_the_world: "На краю света"
+ TDF_the_edge_of_the_world_desc: "Заглушка."
+ TDF_political_placeholder_1: "Политический фокус I"
+ TDF_political_placeholder_1_desc: "Заглушка."
+ TDF_political_placeholder_2: "Политический фокус II"
+ TDF_political_placeholder_2_desc: "Заглушка."
+ TDF_economy_placeholder_1: "Экономический фокус I"
+ TDF_economy_placeholder_1_desc: "Заглушка."
+ TDF_economy_placeholder_2: "Экономический фокус II"
+ TDF_economy_placeholder_2_desc: "Заглушка."
+ TDF_military_placeholder_1: "Военный фокус I"
+ TDF_military_placeholder_1_desc: "Заглушка."
+ TDF_military_placeholder_2: "Военный фокус II"
+ TDF_military_placeholder_2_desc: "Заглушка."
+
+ # Решения
+ TDF_decisions_category: "Дела Огненной Земли"
+ TDF_decisions_category_desc: "Заглушка категории решений."
+ TDF_decision_placeholder_1: "Решение I"
+ TDF_decision_placeholder_1_desc: "Заглушка."
+ TDF_decision_placeholder_2: "Решение II"
+ TDF_decision_placeholder_2_desc: "Заглушка."
+
+ # События
+ tdf.1.t: "На краю света"
+ tdf.1.d: "Заглушка текста события."
+ tdf.1.a: "Заглушка."

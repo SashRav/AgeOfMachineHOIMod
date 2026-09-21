@@ -1,0 +1,13 @@
+TDF_decisions_category = {
+	icon = generic_propaganda
+
+	allowed = {
+		original_tag = TDF
+	}
+
+	visible = {
+		always = yes
+	}
+
+	priority = 100
+}
