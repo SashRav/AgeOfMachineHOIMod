@@ -2,7 +2,12 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
-	TDF_tech_category
+	TDF_cat_infantry
+	TDF_cat_armor
+	TDF_cat_air
+	TDF_cat_naval
+	TDF_cat_ai
+	TDF_cat_industry
 	light_air
 	medium_air
 	heavy_air
@@ -141,7 +146,37 @@ technology_categories = {
 }
 
 technology_folders = {
-	TDF_research_folder = {
+	TDF_infantry_folder = {
+		ledger = army
+		available = {
+			original_tag = TDF
+		}
+	}
+	TDF_armor_folder = {
+		ledger = army
+		available = {
+			original_tag = TDF
+		}
+	}
+	TDF_air_folder = {
+		ledger = air
+		available = {
+			original_tag = TDF
+		}
+	}
+	TDF_naval_folder = {
+		ledger = navy
+		available = {
+			original_tag = TDF
+		}
+	}
+	TDF_ai_folder = {
+		ledger = civilian
+		available = {
+			original_tag = TDF
+		}
+	}
+	TDF_industry_folder = {
 		ledger = civilian
 		available = {
 			original_tag = TDF

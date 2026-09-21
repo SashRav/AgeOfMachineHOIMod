@@ -1,0 +1,35 @@
+##############################################
+# AoM: механика обнаружения (TDF_detection, 0..100)
+#
+# Использование в событиях / решениях / фокусах:
+#   set_temp_variable = { TDF_detection_delta = 5 }    # или -5
+#   TDF_change_detection = yes
+##############################################
+
+TDF_change_detection = {
+	add_to_variable = {
+		var = TDF_detection
+		value = TDF_detection_delta
+		tooltip = TDF_detection_change_tt
+	}
+	clamp_variable = {
+		var = TDF_detection
+		min = 0
+		max = 100
+	}
+}
+
+# Прямая установка значения (отладка / скриптовые сбросы):
+#   set_temp_variable = { TDF_detection_delta = 30 }
+#   TDF_set_detection = yes
+TDF_set_detection = {
+	set_variable = {
+		var = TDF_detection
+		value = TDF_detection_delta
+	}
+	clamp_variable = {
+		var = TDF_detection
+		min = 0
+		max = 100
+	}
+}

@@ -1,7 +1,106 @@
 technologies = {
+	# Заглушка вкладки TDF_infantry_folder
+	TDF_inf_stub_tech = {
+		allow = {
+			original_tag = TDF
+		}
 
-	# Тестовая технология 1936 года, доступна только Огненной Земле
-	TDF_test_tech_1 = {
+		army_attack_factor = 0.02
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_infantry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_cat_infantry
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Заглушка вкладки TDF_armor_folder
+	TDF_armor_stub_tech = {
+		allow = {
+			original_tag = TDF
+		}
+
+		army_armor_attack_factor = 0.02
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_armor_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_cat_armor
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Заглушка вкладки TDF_air_folder
+	TDF_air_stub_tech = {
+		allow = {
+			original_tag = TDF
+		}
+
+		air_attack_factor = 0.02
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_air_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_cat_air
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Заглушка вкладки TDF_naval_folder
+	TDF_naval_stub_tech = {
+		allow = {
+			original_tag = TDF
+		}
+
+		naval_damage_factor = 0.02
+
+		research_cost = 0.01
+		start_year = 1936
+
+		folder = {
+			name = TDF_naval_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			TDF_cat_naval
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	# Заглушка вкладки TDF_ai_folder
+	TDF_ai_stub_tech = {
 		allow = {
 			original_tag = TDF
 		}
@@ -12,12 +111,12 @@ technologies = {
 		start_year = 1936
 
 		folder = {
-			name = TDF_research_folder
+			name = TDF_ai_folder
 			position = { x = 0 y = 0 }
 		}
 
 		categories = {
-			TDF_tech_category
+			TDF_cat_ai
 		}
 
 		ai_will_do = {
@@ -25,29 +124,29 @@ technologies = {
 		}
 	}
 
-	# Вторая технология: открывается решением TDF_unlock_test_tech_2
-	TDF_test_tech_2 = {
+	# Заглушка вкладки TDF_industry_folder
+	TDF_industry_stub_tech = {
 		allow = {
 			original_tag = TDF
-			has_country_flag = TDF_test_tech_2_unlocked
 		}
 
-		production_speed_industrial_complex_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
 
 		research_cost = 0.01
 		start_year = 1936
 
 		folder = {
-			name = TDF_research_folder
+			name = TDF_industry_folder
 			position = { x = 0 y = 0 }
 		}
 
 		categories = {
-			TDF_tech_category
+			TDF_cat_industry
 		}
 
 		ai_will_do = {
 			factor = 10
 		}
 	}
+
 }

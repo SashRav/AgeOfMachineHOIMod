@@ -1,0 +1,16 @@
+scripted_gui = {
+	TDF_detection_ui = {
+		context_type = decision_category
+		window_name = "TDF_detection_ui_window"
+
+		visible = {
+			original_tag = TDF
+		}
+
+		properties = {
+			TDF_detection_bar = {
+				frame = TDF_detection
+			}
+		}
+	}
+}

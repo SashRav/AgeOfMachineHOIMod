@@ -124,6 +124,19 @@ bookmarks = {
 		}
 
 		# minors from DLC ####
+		"TDF"={
+			minor = yes
+			history = "TDF_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				TDF_end_of_the_world
+			}
+			focuses = {
+				TDF_the_edge_of_the_world
+				TDF_political_placeholder_1
+				TDF_economy_placeholder_1
+			}
+		}
 		"CAN"={
 			minor = yes
 			history = "CAN_BLITZKRIEG_DESC"
@@ -1139,19 +1152,6 @@ bookmarks = {
 			}
 		}
 
-		"TDF"={
-			minor = yes
-			history = "TDF_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				TDF_end_of_the_world
-			}
-			focuses = {
-				TDF_the_edge_of_the_world
-				TDF_political_placeholder_1
-				TDF_economy_placeholder_1
-			}
-		}
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

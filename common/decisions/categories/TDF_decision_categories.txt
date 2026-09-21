@@ -10,4 +10,6 @@ TDF_decisions_category = {
 	}
 
 	priority = 100
+
+	scripted_gui = TDF_detection_ui
 }

@@ -1,18 +1,59 @@
 spriteTypes = {
-	# Вкладка исследований Огненной Земли (заглушка: текстура вкладки промышленности)
+	# Вкладки технологий Огненной Земли (заглушки: ванильные текстуры)
 	spriteType = {
-		name = "GFX_TDF_research_folder_tab"
+		name = "GFX_TDF_infantry_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_TDF_armor_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_tank_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_TDF_air_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_air_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_TDF_naval_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_naval_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_TDF_ai_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_engineering_tab.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_TDF_industry_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
 		noOfFrames = 2
 	}
 
-	# Иконки технологий (заглушки: ванильные текстуры)
+	# Иконки технологий (заглушки)
 	spriteType = {
-		name = "GFX_TDF_test_tech_1_medium"
+		name = "GFX_TDF_inf_stub_tech_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+	spriteType = {
+		name = "GFX_TDF_armor_stub_tech_medium"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_TDF_air_stub_tech_medium"
 		texturefile = "gfx/interface/technologies/radio.dds"
 	}
 	spriteType = {
-		name = "GFX_TDF_test_tech_2_medium"
+		name = "GFX_TDF_naval_stub_tech_medium"
+		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
+	}
+	spriteType = {
+		name = "GFX_TDF_ai_stub_tech_medium"
+		texturefile = "gfx/interface/technologies/radio.dds"
+	}
+	spriteType = {
+		name = "GFX_TDF_industry_stub_tech_medium"
 		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
 	}
 }

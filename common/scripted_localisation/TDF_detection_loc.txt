@@ -1,0 +1,24 @@
+# AoM: название стадии обнаружения для GUI и тултипов
+defined_text = {
+	name = TDF_GetDetectionStage
+
+	text = {
+		trigger = { check_variable = { TDF_detection < 25 } }
+		localization_key = TDF_detection_stage_0
+	}
+	text = {
+		trigger = { check_variable = { TDF_detection < 50 } }
+		localization_key = TDF_detection_stage_1
+	}
+	text = {
+		trigger = { check_variable = { TDF_detection < 75 } }
+		localization_key = TDF_detection_stage_2
+	}
+	text = {
+		trigger = { check_variable = { TDF_detection < 100 } }
+		localization_key = TDF_detection_stage_3
+	}
+	text = {
+		localization_key = TDF_detection_stage_4
+	}
+}

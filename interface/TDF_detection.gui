@@ -1,0 +1,58 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TDF_detection_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 92 }
+
+		iconType = {
+			name = "TDF_detection_bg"
+			spriteType = "GFX_TDF_detection_bg"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "TDF_detection_title"
+			position = { x = 18 y = 10 }
+			font = "hoi_18mbs"
+			text = "TDF_DETECTION_TITLE"
+			maxWidth = 300
+			maxHeight = 22
+			format = left
+		}
+
+		instantTextBoxType = {
+			name = "TDF_detection_value"
+			position = { x = 300 y = 10 }
+			font = "hoi_18mbs"
+			text = "TDF_DETECTION_VALUE"
+			maxWidth = 150
+			maxHeight = 22
+			format = right
+		}
+
+		iconType = {
+			name = "TDF_detection_bar"
+			spriteType = "GFX_TDF_detection_progressbar"
+			position = { x = 25 y = 40 }
+			pdx_tooltip = "TDF_DETECTION_TT"
+		}
+
+		iconType = {
+			name = "TDF_detection_ticks"
+			spriteType = "GFX_TDF_detection_ticks"
+			position = { x = 25 y = 40 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "TDF_detection_stage"
+			position = { x = 18 y = 64 }
+			font = "hoi_16mbs"
+			text = "TDF_DETECTION_STAGE"
+			maxWidth = 430
+			maxHeight = 20
+			format = left
+		}
+	}
+}

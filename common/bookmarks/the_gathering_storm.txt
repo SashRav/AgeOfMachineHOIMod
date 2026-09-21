@@ -240,6 +240,19 @@ bookmarks = {
 
 
 		# minors from DLC ####
+		"TDF"={
+			minor = yes
+			history = "TDF_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				TDF_end_of_the_world
+			}
+			focuses = {
+				TDF_the_edge_of_the_world
+				TDF_political_placeholder_1
+				TDF_economy_placeholder_1
+			}
+		}
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -1458,19 +1471,6 @@ bookmarks = {
 				INSHOL_autonomous_dominion
 				INS_the_declaration_of_independence
 				INS_support_tan_malakas_coup
-			}
-		}
-		"TDF"={
-			minor = yes
-			history = "TDF_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				TDF_end_of_the_world
-			}
-			focuses = {
-				TDF_the_edge_of_the_world
-				TDF_political_placeholder_1
-				TDF_economy_placeholder_1
 			}
 		}
 		effect = {

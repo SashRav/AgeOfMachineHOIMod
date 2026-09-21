@@ -7,6 +7,10 @@ set_convoys = 5
 set_stability = 0.5
 set_war_support = 0.2
 
+# Механика обнаружения
+set_country_flag = TDF_hidden
+set_variable = { TDF_detection = 5 }
+
 # Стартовых технологий нет: у страны роботов свой путь развития (вкладка TDF_research_folder)
 
 set_politics = {

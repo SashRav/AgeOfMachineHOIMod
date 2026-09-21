@@ -9,7 +9,15 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
+	option = { # вариант, повышающий обнаружение (заглушка)
 		name = tdf.1.a
+		set_temp_variable = { TDF_detection_delta = 5 }
+		TDF_change_detection = yes
+	}
+
+	option = { # вариант, снижающий обнаружение (заглушка)
+		name = tdf.1.b
+		set_temp_variable = { TDF_detection_delta = -5 }
+		TDF_change_detection = yes
 	}
 }

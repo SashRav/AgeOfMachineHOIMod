@@ -1,0 +1,20 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TDF_detection_bg"
+		texturefile = "gfx/interface/TDF/detection_bg.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_TDF_detection_progressbar"
+		textureFile1 = "gfx/interface/TDF/detection_bar_fill.dds"
+		textureFile2 = "gfx/interface/TDF/detection_bar_bg.dds"
+		size = { x = 420 y = 18 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	spriteType = {
+		name = "GFX_TDF_detection_ticks"
+		texturefile = "gfx/interface/TDF/detection_bar_ticks.dds"
+	}
+}
